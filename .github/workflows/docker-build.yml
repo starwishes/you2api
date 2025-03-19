@@ -1,6 +1,7 @@
 name: Docker Build and Push
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]  # 当推送到main分支时触发
   pull_request:
